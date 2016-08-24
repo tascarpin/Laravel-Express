@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('app');
 });
+
+Route::get('home', 'HomeController@index');
 
 Route::get('blog', 'PostsController@index');
