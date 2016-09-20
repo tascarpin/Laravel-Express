@@ -7,7 +7,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<div class="panel panel-default">
-				<div class="panel-heading">Blog</div>
+				<div class="panel-heading">Blog do administrador</div>
 
 				<div class="panel-body">
 					@foreach($posts as $post)
