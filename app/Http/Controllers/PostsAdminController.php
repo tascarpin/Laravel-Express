@@ -14,7 +14,7 @@ class PostsAdminController extends Controller
     public function __construct(Post $post){
             $this->post = $post;
     }
-
+    
     public function index(){
         $posts = $this->post->paginate(5);
 
